@@ -1,5 +1,4 @@
-// const API_KEY = "9a23e9a8212b4d300a1c259981b430";
-// const API_KEY = "eaac1b6295364e733988bbe6496c92f0";
+
 const API_KEY = import.meta.env.VITE_API_KEY;;
 
 const requests = {
