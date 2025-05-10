@@ -1,0 +1,87 @@
+/* Header styling */
+/* Outer container with scroll effect */
+.header-outer-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1000; /* Ensure it stays
+     above other content */
+     /* background-color: rgb(148,132,132); */
+     background-color: rgb(20, 20, 20);
+  
+  }
+  
+  /* Apply dark background on scroll */
+  .nav_black {
+    background-color: rgb(20, 20, 20);
+  }
+  
+  /* Inner container for layout */
+  .header_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Left section styling */
+  .header_left ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header_left li {
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .header_left li:hover {
+    color: #b3b3b3; /* Light gray on hover for Netflix-like effect */
+  }
+  
+  .header_left li:first-child img {
+    vertical-align: middle; /* Align image with text */
+  }
+  
+  /* Right section styling */
+  .header_right ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header_right li {
+    cursor: pointer;
+  }
+  
+  .header_right svg {
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .header_right svg:hover {
+    color: #b3b3b3; /* Light gray on hover */
+  }
+  
+  /* Ensure proper spacing and alignment */
+  .header_left,
+  .header_right {
+    display: flex;
+    align-items: center;
+  }
