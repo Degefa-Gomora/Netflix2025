@@ -26,5 +26,5 @@ dotenv.config();
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // Matches homepage
+  base: "/Nflx-Clone-2025", // Matches homepage
 });
