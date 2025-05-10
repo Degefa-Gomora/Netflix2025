@@ -24,12 +24,10 @@
   .row_posterLarge {
     max-height: 250px;
   }
-  /* 23 */
   .row_posterLarge:hover {
     transform: scale(1.09);
   }
   
-  /* 26 */
   .row {
     margin-left: 20px;
     color: white;
