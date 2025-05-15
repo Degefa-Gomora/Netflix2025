@@ -16,7 +16,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/Nflx-Clone-2025/',  // 👈 must match GitHub repo name
+  base: "/Netflix2025/", // 👈 must match GitHub repo name
   plugins: [react()],
-
 });
