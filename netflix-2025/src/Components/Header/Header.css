@@ -1,6 +1,14 @@
 /* Header styling */
+.bg-dark-custom {
+  background-color: rgb(20, 20, 20) !important;
+  color: white !important;
+  opacity: 0.9 !important;
+}
+
+
+
 /* Outer container with scroll effect */
-.header-outer-container {
+.header-outer-container  {
   position: sticky;
   top: 0;
   display: flex;
@@ -14,13 +22,14 @@
   z-index: 1000; /* Ensure it stays
    above other content */
    /* background-color: rgb(148,132,132); */
-   background-color: rgb(20, 20, 20);
+   background-color: rgb(20, 20, 20) !important;
 
 }
 
+
 /* Apply dark background on scroll */
 .nav_black {
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(20, 20, 20) !important;
 }
 
 /* Inner container for layout */
@@ -85,3 +94,5 @@
   display: flex;
   align-items: center;
 }
+
+

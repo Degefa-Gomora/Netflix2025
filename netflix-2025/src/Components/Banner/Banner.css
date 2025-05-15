@@ -63,3 +63,43 @@
   margin-right: 2rem;
   background-color: rgba(51, 51, 51, 0.5);
 }
+
+
+
+/* Responsive styles for Banner */
+@media (max-width: 768px) {
+  .banner {
+    height: 50vh;          /* Reduce height on small screens */
+    margin-top: 0;         /* Remove negative margin for better layout */
+    margin-bottom: 0;
+  }
+
+  .banner_contents {
+    margin-left: 15px;     /* Less left margin */
+    padding-top: 150px;    /* Reduce padding */
+  }
+
+  .banner_title {
+    font-size: 1.8rem;     /* Smaller font */
+    padding-bottom: 0.2rem;
+  }
+
+  .banner_description {
+    width: 100%;           /* Full width on small screens */
+    max-width: 100%;
+    font-size: 0.9rem;     /* Slightly smaller font */
+    height: auto;          /* Let height adjust based on content */
+    line-height: 1.2;
+    padding: 0.5rem 0;
+  }
+
+  .banner_button {
+    font-size: 1rem;       /* Smaller buttons */
+    padding: 0.6rem 1.2rem;
+    margin-right: 1rem;
+  }
+
+  .banner_fadeBottom {
+    height: 20vh;          /* Shorter fade on small screens */
+  }
+}

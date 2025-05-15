@@ -51,3 +51,50 @@
   font-size: 12px;
   margin-bottom: 10px;
 }
+
+
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+  .footer_inner_container {
+    width: 90%;
+  }
+
+  .footer-icons {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .footer_data {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer_data ul {
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    min-width: auto;
+  }
+
+  .footer_data ul li {
+    margin-bottom: 0.5rem;
+    width: 45%; /* two per row on small screens */
+    text-align: center;
+  }
+
+  .service_code {
+    width: 50%;
+    margin: 1rem auto;
+  }
+
+  .copy-write {
+    font-size: 11px;
+    text-align: center;
+  }
+}

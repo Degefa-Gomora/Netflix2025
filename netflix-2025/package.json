@@ -18,6 +18,7 @@
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
     "axios": "^1.9.0",
+    "bootstrap": "^5.3.6",
     "dotenv": "^16.5.0",
     "movie-trailer": "^3.2.1",
     "react": "^19.1.0",
@@ -29,11 +30,13 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
+    "postcss": "^8.5.3",
     "vite": "^6.3.5"
   }
 }
