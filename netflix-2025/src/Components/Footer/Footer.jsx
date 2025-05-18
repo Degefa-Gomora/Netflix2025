@@ -41,10 +41,12 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="service_code">
+        <div className="service_code d-md-flex">
           <p>Service Code</p>
         </div>
-        <div className="copy-write">&copy;1997-2024 Netflix, Inc.</div>
+        <div className="copy-write d-md-flex">
+          &copy;1997-2024 Netflix, Inc.
+        </div>
         <div>
           <p>
             This is a portfolio project for educational purposes, not affiliated

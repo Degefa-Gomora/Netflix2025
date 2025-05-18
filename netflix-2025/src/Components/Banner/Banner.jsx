@@ -2,6 +2,10 @@
 import { useState, useEffect } from "react";
 import axios from "../../utils/axios";
 import requests from "../../utils/requests";
+import { IoIosPlay } from "react-icons/io";
+import { IoIosInformationCircleOutline } from "react-icons/io";
+
+
 import "./Banner.css";
 
 function Banner() {
@@ -24,7 +28,7 @@ function Banner() {
     fetchData();
   }, []);
 
-  // Truncate function (assuming it's defined elsewhere, or add it here)
+  // Truncate function
   const truncate = (str, n) =>
     str?.length > n ? str.substr(0, n - 1) + "..." : str;
 
@@ -32,10 +36,11 @@ function Banner() {
     <div
       className="banner"
       style={{
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        backgroundColor: "black",
       }}
     >
       <div className="banner_contents">
@@ -43,8 +48,8 @@ function Banner() {
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
         <div className="banner_buttons">
-          <button className="banner_button play">Play</button>
-          <button className="banner_button">My List</button>
+          <button className="banner_button play"> <IoIosPlay /> Play</button>
+          <button className="banner_button"> <IoIosInformationCircleOutline /> More Info</button>
         </div>
         <h1 className="banner_description">{truncate(movie?.overview, 150)}</h1>
       </div>

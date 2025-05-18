@@ -4,7 +4,7 @@
 
 
 .row {
-  margin-left: 20px;
+  margin-left: 0;
   color: white !important;
   background-color: black!important;
 }
@@ -78,7 +78,7 @@
 /* Small screens (phones) */
 @media (max-width: 576px) {
   .row {
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   .row h1 {
