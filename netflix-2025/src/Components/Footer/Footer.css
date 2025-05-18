@@ -42,9 +42,11 @@
   align-items: center;
   justify-content: center;
   border: 1px solid #ffff;
-  width: 12%;
-  margin: 10px 0;
+  width: 14%;
+  /* margin: 10px 0; */
   cursor: pointer;
+  margin: 0 0  5px;
+  padding: 0 0 0 10px;
 }
 
 .copy-write {
@@ -91,8 +93,11 @@
   }
 
   .service_code p {
-    width: 12%;
-    margin: 0.5rem auto;
+    width: 143.55px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+
   }
 
   
