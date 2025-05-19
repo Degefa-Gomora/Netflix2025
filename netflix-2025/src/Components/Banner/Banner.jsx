@@ -10,7 +10,7 @@ import "./Banner.css";
 
 function Banner() {
   const [movie, setMovie] = useState({});
-
+// console.log(movie)
   useEffect(() => {
     async function fetchData() {
       try {
@@ -22,10 +22,10 @@ function Banner() {
           ]
         );
       } catch (error) {
-        console.log("error", error);
+        console.log("error", error.message);
       }
     }
-    fetchData();
+    fetchData(); //Calls the fetchData function to execute the API request
   }, []);
 
   // Truncate function
