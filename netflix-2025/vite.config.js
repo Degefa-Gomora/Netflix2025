@@ -1,5 +1,3 @@
-
-
 // import { defineConfig } from "vite";
 // import react from "@vitejs/plugin-react";
 // import dotenv from "dotenv";
@@ -11,11 +9,18 @@
 //   base: "/Nflx-Clone-2025", // Matches homepage
 // });
 
+// import { defineConfig } from 'vite';
+// import react from '@vitejs/plugin-react';
 
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+// export default defineConfig({
+//   base: "/Netflix2025/", // 👈 must match GitHub repo name
+//   plugins: [react()],
+// });
+
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/Netflix2025/", // 👈 must match GitHub repo name
   plugins: [react()],
+  base: "/", // since it's on subdomain root
 });
